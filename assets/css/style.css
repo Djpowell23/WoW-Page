@@ -38,26 +38,29 @@ ul {
     transform: translate(-50%, -50%);
 }
 
+.home-body {
+    font-family: 'MedievalSharp', cursive;
+}
+
 .jumbotron {
     background-color: rgb(30, 30, 31);
     margin: 0 auto;
     height: 70%;
-    width: 90%;
+    width: 100%;
 }
 
 /* Navigation CSS */
-.nav-card {
+.nav-card, .body-card {
     border: 1px solid white;
-    font-family: 'MedievalSharp', cursive;
     text-align: center;
 }
 
-.nav-header {
+.nav-header, .body-header {
     border: none;
     padding: 5px 0px 0px;
 }
 
-.nav-body {
+.nav-body, .body-body {
     padding: 5px;
 }
 
@@ -68,4 +71,8 @@ ul {
     height: 50px;
     margin-top: 5px;
     width: 100%;
+}
+
+.body-body {
+    min-height: 190px;
 }
