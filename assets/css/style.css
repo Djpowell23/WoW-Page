@@ -7,8 +7,12 @@ body {
     color: white;
 }
 
-.container {
-  
+hr {
+    background-color: white;
+}
+
+ul {
+    padding: 0;
 }
 
 .column {
@@ -21,6 +25,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 5px outset rgb(165, 1, 1);
     height: 175px;
     position: relative;
 }
@@ -31,4 +36,36 @@ body {
     left: 50%;
     text-align: center;
     transform: translate(-50%, -50%);
+}
+
+.jumbotron {
+    background-color: rgb(30, 30, 31);
+    margin: 0 auto;
+    height: 70%;
+    width: 90%;
+}
+
+/* Navigation CSS */
+.nav-card {
+    border: 1px solid white;
+    font-family: 'MedievalSharp', cursive;
+    text-align: center;
+}
+
+.nav-header {
+    border: none;
+    padding: 5px 0px 0px;
+}
+
+.nav-body {
+    padding: 5px;
+}
+
+.nav-links {
+    background-color: rgb(127, 127, 129);
+    color: white;
+    font-size: 24px;
+    height: 50px;
+    margin-top: 5px;
+    width: 100%;
 }
